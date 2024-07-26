@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TeamBoard Pro</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      width: 700px; /* Increased width */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>TeamBoard Pro</h1>
+    
+    <div class="slides-container">
+      <iframe src="https://docs.google.com/presentation/d/1g8WJO64oOmfvyYCspeMO96BjeXVbMBQugW1kNWChAuo/edit?usp=sharing" frameborder="0" width="100%" height="300" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+    
+    <div id="announcement">
+      <marquee>Welcome to TeamBoard Pro! Stay tuned for updates and announcements.</marquee>
+    </div>
+    
+    <button id="createPoll">Create Poll</button>
+    <div id="polls"></div>
+    
+    <h2>Daily Growth Check List</h2>
+    <ul id="checkList">
+      <li><input type="checkbox"> Task 1</li>
+      <li><input type="checkbox"> Task 2</li>
+      <li><input type="checkbox"> Task 3</li>
+    </ul>
+    
+    <h2>Google Form</h2>
+    <iframe src="https://www.google.com/forms/about/" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+    <h2>Google Spreadsheet</h2>
+    <iframe src="https://workspace.google.com/intl/en_in/products/sheets/" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    
+    <h2>Music Player</h2>
+    <audio controls>
+      <source src="music/example.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    
+    <h2>Google Meet</h2>
+    <iframe src="https://meet.google.com/?hs=197&pli=1&authuser=0" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    
+    <h2>Health Checker Steps</h2>
+    <ul id="healthCheckList">
+      <li><input type="checkbox"> Step 1: Drink Water</li>
+      <li><input type="checkbox"> Step 2: Stretch</li>
+      <li><input type="checkbox"> Step 3: Take a Break</li>
+      <li><input type="checkbox"> Step 4: Eat Healthy</li>
+    </ul>
+    
+    <h2>Pomodoro Timer</h2>
+    <div id="pomodoro">
+      <p id="timer">25:00</p>
+      <button id="startTimer">Start</button>
+      <button id="resetTimer">Reset</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
+
+
